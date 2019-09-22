@@ -18,6 +18,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .bar
 {
     border:1px solid #eaeaea;
@@ -116,4 +117,24 @@ a
     background-color: #4CAF50;
     color: white;
   }
-  
+  .section-1{
+    margin: 2em auto;
+    text-align: center;
+    width: 80%;
+    padding: 5em 1.5em 2em;
+  }
+ .section-1 hr{
+      background-color: rgb(85, 174, 209);
+      width: 40%;
+      height:2px;
+      border-style: none;
+      margin: 0.5em auto;
+  }
+.about-heading{
+    font-size: 400%;
+}
+.about-content{
+    font-size: 1.6em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
