@@ -51,7 +51,8 @@ body {
 }
 .main-nav li:hover
 {
-    background-color: lightgrey;
+    background-color: rgb(228, 227, 227);
+    border-radius: 20px;
 }
 
 .gdg-img
@@ -71,7 +72,7 @@ a
 }
 #bg
 {
-    height: 100vh;
+    height:100vh;
     width: 100vw;
    
     
