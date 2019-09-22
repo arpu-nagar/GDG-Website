@@ -6,7 +6,7 @@
   }
 
 * {
-    font-family: "ProductSans", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
     margin: 0px;
 }
@@ -14,7 +14,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "ProductSans", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -23,6 +23,7 @@ body {
 {
     border:1px solid #eaeaea;
     border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 
 }
@@ -45,7 +46,13 @@ li
 li:not(:first-child)
 {
     padding-top: 15px;
+    
 }
+li:hover
+{
+    background-color: lightgrey;
+}
+
 .gdg-img
 {
     width: 80px;
@@ -63,32 +70,37 @@ a
 }
 #bg
 {
-    height: 100%;
+    height: 100vh;
     width: 100vw;
-    background: url(./assests/GDGBG-01.svg);
+   
     
 }
 
 #landing {
     display: flex;
+    height: 90%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url(./assests/GDGBG-01.svg);
 }
 
 #landing .title
 {
-    padding-top: 150px;
     padding-bottom: 60px;
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
-    letter-spacing: .5px;
+    font-size: 75px;
+    letter-spacing: .25px;
+}
+.f1
+{
+    font-size:105px;
+}
+.f2
+{
+    font-size:105px;
 }
 
-.fl
-{
-    font-size: 85px;
-}
 #landing .button
 {
   
@@ -117,12 +129,7 @@ a
     background-color: #4CAF50;
     color: white;
   }
-  .section-1{
-    margin: 2em auto;
-    text-align: center;
-    width: 80%;
-    padding: 5em 1.5em 2em;
-  }
+ 
  .section-1 hr{
       background-color: rgb(85, 174, 209);
       width: 40%;
@@ -132,9 +139,22 @@ a
   }
 .about-heading{
     font-size: 400%;
+    text-align: center;
 }
 .about-content{
     font-size: 1.6em;
     letter-spacing: 0.1em;
     line-height: 2em;
+}
+.section-1{
+    width:80%;
+    margin: 4em auto 2em;
+    text-align: center;
+}
+.section
+{
+  height: 100% ;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
 }
