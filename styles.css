@@ -140,11 +140,11 @@ a
       margin: 0.5em auto;
   }
 .about-heading{
-    font-size: 400%;
+
     text-align: center;
 }
 .about-content{
-    font-size: 1.6em;
+    
     letter-spacing: 0.1em;
     line-height: 2em;
 }
@@ -162,16 +162,16 @@ a
   overflow: hidden;
 }
 .IF-heading{
-    font-size: 400%;
+    
     text-align: center;
 }
 .IF-content{
-    font-size: 1.6em;
+    
     letter-spacing: 0.1em;
     line-height: 2em;
 }
 .section-2 ul{
-    font-size: 1.5em;
+    
     list-style-position: inside; 
     margin: 1em auto 2em;
 }
