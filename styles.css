@@ -133,13 +133,14 @@ a
 }
 
 #landing .reg1 {
-    background-color:#D8D8D8;
-    color: green; 
+    
+    background-color:#f6fbf7;
+    color: #5ab574; 
     
   }
   
 #landing  .reg1:hover {
-    background-color: #4CAF50;
+    background-color: #5cb675;
     color: white;
   }
  
