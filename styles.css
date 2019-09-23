@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
     src: url("./assests/Roboto/Roboto-Light.ttf");
   }
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 * {
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
