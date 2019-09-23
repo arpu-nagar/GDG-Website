@@ -92,7 +92,7 @@ a
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(./assests/GDGBG-01.svg);
+    background: url(./assets/GDGBG-01.svg);
         width: 100vw;
     overflow-x: hidden;
 }
