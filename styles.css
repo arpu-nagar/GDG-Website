@@ -1,12 +1,7 @@
-@font-face {
-    font-family: 'Source Sans Pro', sans-serif;
-    src: url("./assests/Source_Sans_Pro/SourceSansPro-Regular.ttf");
-    font-family: 'Roboto', sans-serif;
-    src: url("./assests/Roboto/Roboto-Light.ttf");
-  }
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 
 * {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0px;
 }
@@ -87,9 +82,10 @@ a
 #landing .title
 {
     padding-bottom: 60px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 75px;
     letter-spacing: .25px;
+    font-weight: 600;
 }
 .f1
 {
@@ -102,7 +98,6 @@ a
 
 #landing .button
 {
-  
   background-color:lightgrey; 
   border: none;
   color: green;
