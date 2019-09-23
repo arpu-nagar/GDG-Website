@@ -24,15 +24,15 @@ html, body {
   height: 100%;
   /* width: 100vw; */
   position: relative;
-  /* overflow: hidden; */
+   /* overflow: hidden; */
 }
 
 .bar
 {
     border:1px solid #eaeaea;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.063);
+    padding-right:2em;
     background: white;
 }
 .main-nav
@@ -62,7 +62,9 @@ html, body {
     background-color: rgb(228, 227, 227);
     border-radius: 20px;
 }
-
+.main-nav li:nth-child(1){
+    background-color: #fff;
+}
 .gdg-img
 {
     width: 80px;
@@ -99,7 +101,7 @@ a
 
 #landing .title
 {
-    display: flex;
+    
     padding-bottom: 60px;
     font-family: 'Roboto', sans-serif;
     font-size: 75px;
@@ -188,7 +190,11 @@ li{
 }
 .horizontal-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
+}
+
+.center-icon ul{
+    padding-inline-start: 0px;
 }
 .IF-list{
     font-size:1.5em;
@@ -196,4 +202,92 @@ li{
 }
 .category-icons img{
     margin-bottom: 0.8em;
+}
+.wtm-img{
+    padding-top:6em;
+    clear: left;
+    width: 49%;
+    height: 70%;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.textforimg{
+    padding-left:6em;
+    padding-top:6em;
+    padding-right:6em;
+    text-align: center;
+    float:right;
+    width: 50%;
+    height: 100%;
+}
+
+.wtm-track1
+{
+    height: 700px;
+    background-color: #CAEDFC;
+    display: flex;
+    padding: 20px;
+}
+.wtm-track2{
+    height: 700px;
+    background-color: #E6C9EB;
+    display: flex;
+    padding: 20px;
+}
+
+.textforimg2
+{
+    padding-left:6em;
+    padding-top:10em;
+    padding-right:6em;
+    align-items: right;
+}
+
+.textforimg1
+{
+    padding-left:6em;
+    padding-top:10em;
+    padding-right:6em;
+    align-items: right;
+}
+
+.img{
+
+    border-radius: 25px;
+  background-color: white;
+  border: 2px;
+
+  width: 400px;
+  height: 450px;
+  text-align: center;
+  margin: 30px;
+  margin-top: 50px;
+}
+.img img{
+    padding-top: 4em;
+    width: 300px;
+}
+
+.bg4{
+    background-color: #FDDC90;
+    padding: 50px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bg3{
+    background-color: #D1E4AA;
+    padding: 50px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    padding-top: 8em;
+    padding-right: 3em;
+    padding-left:15em; 
+    float: right;
+    width: 50%;
+    font-size: 130%;
 }
