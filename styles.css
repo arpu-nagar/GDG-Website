@@ -150,6 +150,7 @@ a
       height:2px;
       border-style: none;
       margin: 0.5em auto;
+      margin-bottom: 2em;
   }
 .about-heading{
     margin-top:2em;
@@ -176,15 +177,23 @@ a
 .IF-content{
     font-size: 1.5em;
     letter-spacing: 0.05em;
-    line-height: 2em;
+    line-height: 1.8em;
 }
-.section-2 ul{
-    font-size: 1.5em;
-    width: 15vw;
-    margin : 0.6em auto;
-    list-style-position: outside; 
+li{
+    list-style: none ;
 }
-.section-2 li{
-    margin-top: 0.3em;
-    padding :0.3em;
+
+.IF-list img{
+    max-width: 7vw;
+}
+.horizontal-list{
+    display: flex;
+    justify-content: space-between;
+}
+.IF-list{
+    font-size:1.5em;
+    margin-top: 3em;
+}
+.category-icons img{
+    margin-bottom: 0.8em;
 }
