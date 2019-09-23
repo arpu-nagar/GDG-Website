@@ -129,10 +129,34 @@ a
     color: white;
   }
   
-.section
-{
-  height: 100%;
-  width: 100vw;
-  position: relative;
-  overflow: hidden;
-}
+  .section
+  {
+    height: 100%;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .bubble-container
+  {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .python-img
+  {
+      height: 15em;
+      width: 20em;
+  }
+
+  .tensorflow-img
+  {
+      height: 15em;
+      width: 15em;
+  }
+
+  .keras-img
+  {
+      height: 15em;
+      width: 15em;
+  }
