@@ -11,19 +11,20 @@
     margin: 0px;
 }
 
-body {
+html, body {
     width: 100%;
     height: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x:hidden;
 }
 .section
 {
   height: 100%;
-  width: 100vw;
+  /* width: 100vw; */
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .bar
@@ -32,7 +33,6 @@ body {
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    width:100vw;
     background: white;
 }
 .main-nav
@@ -93,6 +93,8 @@ a
     justify-content: center;
     align-items: center;
     background: url(./assests/GDGBG-01.svg);
+        width: 100vw;
+    overflow-x: hidden;
 }
 
 #landing .title
@@ -149,16 +151,16 @@ a
       margin: 0.5em auto;
   }
 .about-heading{
-
+    font-size:3.5em;
     text-align: center;
 }
 .about-content{
-    
+    font-size: 1.5em;
     letter-spacing: 0.1em;
     line-height: 2em;
 }
 .section-1, .section-2{
-    width:80%;
+    width:70%;
     height: 100vh;
     margin: 4em auto 2em;
     text-align: center;
