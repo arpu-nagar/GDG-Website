@@ -152,12 +152,13 @@ a
       margin: 0.5em auto;
   }
 .about-heading{
+    margin-top:2em;
     font-size:3.5em;
     text-align: center;
 }
 .about-content{
     font-size: 1.5em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     line-height: 2em;
 }
 .section-1, .section-2{
@@ -168,19 +169,22 @@ a
 }
 
 .IF-heading{
-    
+    margin-top:2em;
+    font-size: 3.5em;
     text-align: center;
 }
 .IF-content{
-    
-    letter-spacing: 0.1em;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
     line-height: 2em;
 }
 .section-2 ul{
-    
-    list-style-position: inside; 
-    margin: 1em auto 2em;
+    font-size: 1.5em;
+    width: 15vw;
+    margin : 0.6em auto;
+    list-style-position: outside; 
 }
 .section-2 li{
-    padding: 0.4em;
+    margin-top: 0.3em;
+    padding :0.3em;
 }
